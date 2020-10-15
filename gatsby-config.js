@@ -6,12 +6,19 @@ module.exports = {
       summary: `DJをやったりキーボードやVapeを嗜んだり、いろいろやっています。`,
     },
     description: `ヒヤシンスを観察するブログです。`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://hyacinth-alter095.netlify.app/`,
     social: {
       twitter: `alter095`,
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GATRCKNG_ID,
+        head: true, 
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,12 +57,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
