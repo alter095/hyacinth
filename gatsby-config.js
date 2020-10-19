@@ -6,8 +6,7 @@ module.exports = {
       summary: `DJをやったりキーボードやVapeを嗜んだり、いろいろやっています。`,
     },
     description: `ヒヤシンスを観察するブログです。`,
-    siteUrl: `https://hyacinth-alter095.netlify.app/`,
-    plugins: [`gatsby-plugin-sitemap`],
+    siteUrl: `https://hyacinth-alter095.netlify.app`,
     social: {
       twitter: `alter095`,
     },
@@ -77,6 +76,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
