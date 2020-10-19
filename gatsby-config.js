@@ -7,6 +7,7 @@ module.exports = {
     },
     description: `ヒヤシンスを観察するブログです。`,
     siteUrl: `https://hyacinth-alter095.netlify.app/`,
+    plugins: [`gatsby-plugin-sitemap`],
     social: {
       twitter: `alter095`,
     },
