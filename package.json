@@ -2,7 +2,7 @@
   "name": "gatsby-starter-blog",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
@@ -27,6 +27,7 @@
     "gatsby-source-filesystem": "^2.3.32",
     "gatsby-transformer-remark": "^2.8.37",
     "gatsby-transformer-sharp": "^2.5.16",
+    "mikanjs": "^1.0.11",
     "prismjs": "^1.22.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
