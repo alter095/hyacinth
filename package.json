@@ -27,6 +27,7 @@
     "gatsby-source-filesystem": "^2.3.32",
     "gatsby-transformer-remark": "^2.8.37",
     "gatsby-transformer-sharp": "^2.5.16",
+    "joi": "^17.3.0",
     "mikanjs": "^1.0.11",
     "prismjs": "^1.22.0",
     "react": "^16.12.0",
