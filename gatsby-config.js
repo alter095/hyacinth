@@ -1,4 +1,8 @@
 module.exports = {
+  flags: {
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
+    PRESERVE_WEBPACK_CACHE: true
+  },
   siteMetadata: {
     title: `風信子潅水ログ`,
     author: {
